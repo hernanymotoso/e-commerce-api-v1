@@ -1,0 +1,42 @@
+Arguments: 
+  /home/hernany/.nvm/versions/node/v16.14.0/bin/node /usr/share/yarn/bin/yarn.js add express@4.16.4 body-parser@1.18.3 compression@1.7.3 cors@2.8.5 crypto@1.0.1 ejs@2.6.1 express-jwt@5.3.1 fake@4.1.0 jsonwebtoken@8.4.0 moment@2.23.0 mongoose@5.4.0 mongoose-paginate@5.0.3 mongose-unique-validator@2.0.2 morgan@1.9.1 multer@1.4.1 node-pagseguro@0.1.9 nodemailer@4.7.0 requester@2.88.0 xml2js@0.4.19
+
+PATH: 
+  /home/hernany/.nvm/versions/node/v16.14.0/bin:/home/hernany/.local/share/zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mongose-unique-validator: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66138:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:520:28)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:520:28)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:639:28)
+      at IncomingMessage.emit (node:events:532:35)
+      at endReadableNT (node:internal/streams/readable:1346:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "ecommerce-api",
+    "version": "0.0.1",
+    "description": "API",
+    "main": "server.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
